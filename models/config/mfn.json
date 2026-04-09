@@ -1,0 +1,43 @@
+{
+    "featurePath": "/home/sharing/disk3/Datasets/MMSA-Standard\\SIMS/Processed/unaligned_39.pkl",
+    "seq_lens": [39, 400, 55],
+    "feature_dims": [768, 33, 709],
+    "train_samples": 1368,
+    "num_classes": 3,
+    "language": "cn",
+    "KeyEval": "Loss",
+    "missing_rate": [0.2, 0.2, 0.2],
+    "missing_seed": [1111, 1111, 1111],
+    "need_data_aligned": false,
+    "need_model_aligned": true,
+    "need_normalized": false,
+    "early_stop": 8,
+    "hidden_dims": [64, 16, 64],
+    "memsize": 64,
+    "windowsize": 2,
+    "NN1Config": {
+        "drop": 0.2,
+        "shapes": 128
+    },
+    "NN2Config": {
+        "drop": 0.0,
+        "shapes": 128
+    },
+    "gamma1Config": {
+        "drop": 0.2,
+        "shapes": 64
+    },
+    "gamma2Config": {
+        "drop": 0.7,
+        "shapes": 64
+    },
+    "outConfig": {
+        "drop": 0.7,
+        "shapes": 64
+    },
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "num_epochs": 50,
+    "gpu_ids": []
+}
